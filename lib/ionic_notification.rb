@@ -16,7 +16,7 @@ module IonicNotification
 
   # Application name
   mattr_accessor :ionic_app_name
-  @@ionic_app_name = Rails.application.class.parent_name
+  @@ionic_app_name = Rails.application.class.module_parent_name
 
   # Is application in production
   mattr_accessor :ionic_app_in_production
