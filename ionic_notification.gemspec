@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.test_files = Dir['test/**/*']
 
   s.add_dependency 'rails'
-  s.add_dependency 'httparty', '~> 0.13.5'
+  s.add_dependency 'httparty', '~> 0.17.3'
 
   s.add_development_dependency 'rspec'
 end
