@@ -6,7 +6,7 @@ require 'ionic_notification/version'
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = 'ionic_notification'
-  s.version     = IonicNotification::VERSION
+  s.version     = '0.2.0'
   s.authors     = ['Francesco Renzi']
   s.email       = ['rentziass@gmail.com']
   s.homepage    = 'https://github.com/rentziass/ionic_notification'
